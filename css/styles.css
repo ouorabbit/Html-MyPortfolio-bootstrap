@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+    scroll-behavior: smooth;
+}
+.software_bg {
+	background-image: url(../img/software_bg.jpg);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+.card-header-hight {
+    min-width: 200px;
+}
+.carousel-project {
+	border-radius: 6px;
+	background-color: rgba(0,0,0,0.50);
+}
+#navbar .nav-item a{
+color: #007BFF
+}
+#navbar .nav-item a:hover{
+color: #ffffff
+}
+#navbar .nav-link.active{
+background: #007BFF;
+border-radius: 3px;
+color: #ffffff
+}
